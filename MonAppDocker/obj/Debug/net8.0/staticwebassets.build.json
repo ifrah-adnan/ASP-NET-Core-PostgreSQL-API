@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UrhM6pHlKHJ68fg0/5f9wyPCJZ969Lcm6iv5qrn7HdI=",
+  "Source": "MonAppDocker",
+  "BasePath": "_content/MonAppDocker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
