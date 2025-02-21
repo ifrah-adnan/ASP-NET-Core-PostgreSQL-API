@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using MonAppDocker.Data;
+using MonAppDocker.Services;
 
 public class Program
 {
@@ -17,6 +18,8 @@ public class Program
                 {
                     services.AddDbContext<ApplicationDbContext>(options =>
                         options.UseNpgsql(context.Configuration.GetConnectionString("DefaultConnection")));
+                                            services.AddScoped<IProductService, ProductService>(); // Assurez-vous que ProductService implémente IProductService
+
                     services.AddControllers(); 
                 });
                 webBuilder.Configure(app =>

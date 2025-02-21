@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MonAppDocker.Models;
 using MONAPPDOCKER.Models;
 
 namespace MonAppDocker.Data
@@ -9,5 +10,7 @@ namespace MonAppDocker.Data
             : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Product>Products { get; set; }
+
     }
 }

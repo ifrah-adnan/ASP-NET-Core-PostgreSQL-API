@@ -133,3 +133,4 @@ C:\Users\Dell Latitude 5420\Documents\dotnet\MonAppDocker\bin\Debug\net8.0\tr\Mi
 C:\Users\Dell Latitude 5420\Documents\dotnet\MonAppDocker\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Dell Latitude 5420\Documents\dotnet\MonAppDocker\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Dell Latitude 5420\Documents\dotnet\MonAppDocker\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Dell Latitude 5420\Documents\dotnet\MonAppDocker\obj\Debug\net8.0\MonAppDocker.sourcelink.json
